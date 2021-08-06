@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import Tmdb from "./Tmdb";
+import Tmdb from "./api/Tmdb";
 import './App.css';
-import Header from "./components/Header";
-import FeaturedMovie from "./components/FeaturedMovie";
-import MovieRow from "./components/MovieRow";
+import Header from "./components/Header/index";
+import FeaturedMovie from "./components/FeaturedMovie/index";
+import MovieRow from "./components/MovieRow/index";
 
 export default () => {
 
@@ -47,6 +47,12 @@ export default () => {
 
   return (
     <div className="page">
+
+      {movieList.length <= 0 &&
+        <div className="loading">
+          <img src={process.env.PUBLIC_URL+'/loading.gif'} alt="Logo do Netflix" />
+        </div>  
+      }
      <Header black={blackHeader}/>
      {featuredData &&
         <FeaturedMovie item={featuredData}/>
@@ -65,7 +71,7 @@ export default () => {
         <p>Todos os direitos Reservados para <a href="https://www.netflix.com/br/" target="_blank">Netflix</a></p>
         <p>Dados utilizados do site <a href="https://www.themoviedb.org/?language=pt-BR" target="_blank">The Movie DB</a></p>
         <p>2021</p>
-      </footer>
+      </footer>  
     </div>
   );
 };

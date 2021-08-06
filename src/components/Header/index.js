@@ -10,6 +10,7 @@ export default ({black}) => {
                 </a>
             </div>
             <div className="header--user">
+                <p>Bem-Vindo</p>
                 <a href="/">
                     <img src="https://pbs.twimg.com/profile_images/1240119990411550720/hBEe3tdn_400x400.png" alt="Imagem de Usuário"/>
                 </a>
