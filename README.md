@@ -6,7 +6,7 @@ mantendo a fidelidade as características do site oficial.
 # Tecnologias que foram utilizadas
 
 - ReactJS
-- API utilizada [The Movie DB](www.themoviedb.org)
+- API utilizada [The Movie DB](https://www.themoviedb.org)
 - NPM
 - HTML 5, CSS 3, Javascript
 
@@ -16,9 +16,9 @@ mantendo a fidelidade as características do site oficial.
 - Após instalação do NodeJS, o proximo passo é realizar a clonagem do Repositório para o seu Host de destino.
 $ git clone https://github.com/viniciusjose/clone_netflix.git
 - Entre na raiz do projeto e utilize o comando abaixo para instalar todas as dependências do projeto.
-$ npm install
+- $ npm install
 - Para iniciar o projeto basta digitar o comando
-$ npm start
+- $ npm start
 
 # Como foi desenvolvido
 
