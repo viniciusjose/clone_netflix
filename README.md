@@ -14,7 +14,7 @@ mantendo a fidelidade as características do site oficial.
 
 - Realizar a instalação do NodeJS em seu Host, link para instalação [NodeJS](https://nodejs.org/en/download/) .
 - Após instalação do NodeJS, o proximo passo é realizar a clonagem do Repositório para o seu Host de destino.
-$ git clone https://github.com/viniciusjose/clone_netflix.git
+- $ git clone https://github.com/viniciusjose/clone_netflix.git
 - Entre na raiz do projeto e utilize o comando abaixo para instalar todas as dependências do projeto.
 - $ npm install
 - Para iniciar o projeto basta digitar o comando
